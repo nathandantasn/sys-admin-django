@@ -1,0 +1,205 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$phOvN0DtoMJaLur21chZMo$ddksohrkvIhlw7QY+MPbzuUjEkwk1lp49uNB9vBSgwo=",
+            "last_login": "2023-08-01T23:32:23.598Z",
+            "is_superuser": true,
+            "username": "nathan",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@user.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-08-01T23:30:17.305Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 1,
+        "fields": {
+            "name": "Messi",
+            "initial_price": 100.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 2,
+        "fields": {
+            "name": "Neymar",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 3,
+        "fields": {
+            "name": "De Bruyne",
+            "initial_price": 10.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 4,
+        "fields": {
+            "name": "Vinicius Jr",
+            "initial_price": 15.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 5,
+        "fields": {
+            "name": "Cristiano Ronaldo",
+            "initial_price": 30.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 6,
+        "fields": {
+            "name": "Richarlison",
+            "initial_price": 6.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 7,
+        "fields": {
+            "name": "Cássio",
+            "initial_price": 500.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 8,
+        "fields": {
+            "name": "Sérgio Ramos",
+            "initial_price": 12.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 9,
+        "fields": {
+            "name": "Hakimi",
+            "initial_price": 15.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 10,
+        "fields": {
+            "name": "Haaland",
+            "initial_price": 90.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 11,
+        "fields": {
+            "name": "Yuri Alberto",
+            "initial_price": 90.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 12,
+        "fields": {
+            "name": "Gabriel Barbosa",
+            "initial_price": 50.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 13,
+        "fields": {
+            "name": "De Arrascaeta",
+            "initial_price": 90.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 14,
+        "fields": {
+            "name": "Bernardo Silva",
+            "initial_price": 20.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 15,
+        "fields": {
+            "name": "Fagner",
+            "initial_price": 40.0
+        }
+    },
+    {
+        "model": "app.player",
+        "pk": 16,
+        "fields": {
+            "name": "Matias Rojas",
+            "initial_price": 30.0
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 1,
+        "fields": {
+            "name": "Brasil"
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 2,
+        "fields": {
+            "name": "Alemanha"
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 3,
+        "fields": {
+            "name": "Chile"
+        }
+    },
+    {
+        "model": "app.team",
+        "pk": 4,
+        "fields": {
+            "name": "Corinthians"
+        }
+    },
+    {
+        "model": "app.myteam",
+        "pk": 1,
+        "fields": {
+            "players": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "app.myteam",
+        "pk": 2,
+        "fields": {
+            "players": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "app.match",
+        "pk": 1,
+        "fields": {
+            "match_date": "2023-08-05T01:41:33Z",
+            "team_a": 1,
+            "team_a_goal": 7,
+            "team_b": 2,
+            "team_b_goal": 1
+        }
+    }
+]
